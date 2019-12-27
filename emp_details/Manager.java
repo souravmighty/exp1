@@ -1,6 +1,6 @@
 
 public class Manager extends Employee{
-	static int i=0;
+	private int i=0;
 	private Employee[] managedEmployees= new Employee[2];
 	public Manager()
 	{
